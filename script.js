@@ -8,6 +8,33 @@ let prijem = (listek * navstevnici) * mesicne
 
 let prijemSeStudenty = ((listek * (navstevnici * 0.6)) + (listekStudent * navstevniciStudent)) * mesicne
 
-document.body.innerHTML+= "<p>" + prijem + "</p>"
+document.body.innerHTML+= "<p>" + Math.ceil(prijem) + "</p>"
 
-document.body.innerHTML+= "<p>" + prijemSeStudenty + "</p>"
+document.body.innerHTML+= "<p>" + Math.ceil(prijemSeStudenty) + "</p>"
+
+
+const hodKostkou = Math.ceil(Math.random() * 6)
+
+document.body.innerHTML += "<p>Hozeno: " + hodKostkou + "</p>"
+
+//test různých čísel - padnou všechny možnosti od 1 do 6?
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
+document.body.innerHTML += "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>"
